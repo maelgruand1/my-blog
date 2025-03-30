@@ -1,13 +1,130 @@
+/* 🌍 Styles de base - ambiance chaleureuse */
 body {
+  font-family: 'Roboto', sans-serif;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  background: linear-gradient(to bottom, #fdf2e9, #f4d1a1); /* Dégradé beige orangé */
+  color: #4a2c2a; /* Marron foncé pour un effet cosy */
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  font-size: 16px;
+  min-height: 100vh;
+  padding-top: 80px;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* 🌍 Conteneur principal du blog */
+.blog-container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 60px 20px 20px;
+  background-color: #fff5e1; /* Blanc cassé pour plus de douceur */
+  box-shadow: 0 4px 15px rgba(150, 100, 50, 0.2); /* Ombre chaude */
+  border-radius: 12px; /* Coins arrondis plus marqués */
+  border: 2px solid #f4a261; /* Légère bordure orangée */
+}
+
+/* 📌 Section titres */
+h1, h2 {
+  color: #6d3c3c; /* Rouge brique doux */
+  font-family: 'Playfair Display', serif; /* Une police élégante */
+  text-align: center;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+h2 {
+  font-size: 2rem;
+  margin-bottom: 15px;
+}
+
+/* 📄 Amélioration du texte */
+p {
+  line-height: 1.8;
+  color: #5f3735; /* Marron doux */
+  font-size: 1.1rem;
+}
+
+/* 🔗 Liens */
+a {
+  color: #e76f51; /* Orange chaleureux */
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease, transform 0.2s ease-in-out;
+}
+
+a:hover {
+  color: #9c3b2b;
+  text-decoration: underline;
+  transform: scale(1.05); /* Légère animation au survol */
+}
+
+/* 📑 Styles des articles de blog */
+.blog-post {
+  background-color: #fffbf5;
+  padding: 25px;
+  margin-bottom: 25px;
+  box-shadow: 0 3px 12px rgba(150, 100, 50, 0.15);
+  border-radius: 12px;
+  border-left: 5px solid #e76f51; /* Accent chaleureux */
+}
+
+.blog-post h3 {
+  font-size: 1.8rem;
+  text-align: center;
+  color: #9c3b2b;
+  font-family: 'Playfair Display', serif;
+}
+
+/* 🖼️ Images */
+.blog-post .blog-image {
+  display: block;
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+  border-radius: 12px;
+  margin: 15px auto;
+  box-shadow: 0 2px 8px rgba(150, 100, 50, 0.2);
+}
+.blog-post a{
+  cursor: pointer;
+}
+
+/* 📱 Responsive design */
+@media (max-width: 600px) {
+  .blog-container {
+    padding: 20px;
+  }
+
+  h1, h2 {
+    text-align: center;
+  }
+
+  .blog-post {
+    padding: 15px;
+  }
+}
+
+@media (min-width: 600px) and (max-width: 1024px) {
+  .blog-container {
+    padding: 30px;
+  }
+
+  h1, h2 {
+    text-align: left;
+  }
+}
+
+@media (min-width: 1024px) {
+  .blog-container {
+    padding: 40px;
+  }
+
+  h1, h2 {
+    font-weight: bold;
+  }
 }
