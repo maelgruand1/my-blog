@@ -1,46 +1,28 @@
-# Getting Started with Create React App
+# My Blog
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Bienvenue sur **My Blog**, un blog dédié à partager des astuces et des bonnes pratiques en développement, en particulier pour les technologies **React** et **TypeScript**.
 
-## Available Scripts
+## Fonctionnalités
 
-In the project directory, you can run:
+- **Liste des articles** : Le blog présente plusieurs articles, chacun accompagné d'une image et d'un extrait d'introduction.
+- **Interface utilisateur dynamique** : L'interface est construite en utilisant **React** pour offrir une expérience fluide.
+- **Structure modulaire** : L'application est structurée de manière claire avec des composants réutilisables, comme `BlogList`, pour afficher les articles.
 
-### `npm start`
+## Technologies utilisées
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- **React** : Utilisé pour la construction de l'interface utilisateur dynamique.
+- **TypeScript** : Ajoute des types statiques à JavaScript pour un code plus sûr et plus facile à maintenir.
+- **gh-pages** : Déploiement du blog sur **GitHub Pages** pour une consultation en ligne rapide et accessible.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Installation
 
-### `npm test`
+Si tu souhaites cloner ce projet et l'exécuter en local, voici les étapes à suivre :
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+1. Clone le projet :
+   ```bash
+   git clone https://github.com/TON-USERNAME/my-blog.git
+   cd my-blog
+   ```
+   
+2. Open it into your code editor and enjoy first version
+3. Don't forget if you like it, put a star and a comment into the section Discussions
